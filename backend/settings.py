@@ -122,4 +122,5 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',  # برای تست، همه می‌تونن دسترسی داشته باشن. بعداً احراز هویت اضافه کن
     ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [],
 }
