@@ -15,7 +15,11 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-(_c2jvo_&f4n_68n4um
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'receive-api.onrender.com',  # دامنه Render
+    '127.0.0.1',  # برای تست لوکال
+    'localhost',  # برای تست لوکال
+]
 
 
 # Application definition
